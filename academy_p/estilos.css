@@ -1,0 +1,918 @@
+body{
+    font-family: "poppins";
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(229, 243, 243);
+}
+
+/* header */
+
+.header{
+    background: linear-gradient(rgb(131, 27, 122), rgb(160, 14, 87) );
+}
+
+.logo img{
+    padding-top: 20px;
+    width:310px;
+    height:118px;
+    margin-bottom: -20px;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.container1{
+    max-width: 500px;
+}
+
+.pregunta1{
+    display: flex;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    padding-left: 70px;
+    text-align: justify;
+    margin-top: -20px;
+}
+
+.medico{
+    color: rgb(237, 210, 43);
+}
+
+.texto-header{
+    color: white;
+    padding-left: 70px;
+    font-size: 13.5px;
+    margin-top: -60px;
+    text-align: justify;
+}
+
+.boton{
+    color: rgb(169, 17, 100);
+    background-color: rgb(237, 210, 40);
+    border: #edd228 solid 5px;
+    border-radius: 50px;
+    padding: 18px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 19px;
+    text-decoration: none;
+    outline: none;
+}
+
+.boton:hover{
+    background-color: rgb(27, 36, 35);
+    border-color: rgb(27, 36, 35);
+    color: white;
+}
+
+/* container2 */
+
+.container2{
+    /* background-color: rgb(229, 243, 243); */
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.parrafo_c{
+    margin: 0px;
+    padding: 180px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.parrafo_c strong{
+    font-size: 32px;
+}
+
+/* container3 */
+
+.container3{
+    background: linear-gradient( rgb(160, 14, 87), rgb(131, 27, 122) );
+}
+
+.titulo2{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1% 5% 2% 5%;
+}
+
+.titulo2 strong{
+    color: rgb(253, 212, 22);
+    width: 50%;
+    font-size: 50px;
+}
+
+.titulo2 p{
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contenido{
+    display: flex;
+    margin: auto 100px;
+}
+
+.icon{
+    border-color: rgb(253, 212, 22);
+    text-align: center;
+    padding: 0px 20px 40px;
+}
+
+.icon img{
+    width: 100px;
+}
+
+.icon p strong{
+    font-size: 24px;
+    color: white;
+}
+
+.strong{
+    color: white;
+    font-size: 11px;
+    text-align: justify;
+}
+
+/* container4 */
+
+.container4{
+    background-color: rgb(229, 243, 243);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.container4 p{
+    margin-top: 0px;
+    padding-top: 90px;
+    font-size: 76px;
+}
+
+.boton2{
+    color: rgb(237, 210, 40);
+    background-color: rgb(169, 17, 100);
+    border: rgb(169, 17, 100) solid 5px;
+    border-radius: 50px;
+    padding: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 19px;
+    text-decoration: none;
+    outline: none;
+}
+
+.boton2:hover{
+    background-color: transparent;
+    color: rgb(27, 36, 35);
+    border: rgb(27, 36, 35) solid 5px;
+}
+
+/* container5 */
+
+.container5{
+    background: linear-gradient(  rgb(131, 27, 122), rgb(160, 14, 87));
+    display: flex;
+    height: 450px;
+    }
+    
+    .obsequios{
+    margin-left: 35px;
+    color: rgb(54, 184, 176);
+    background-color: rgb(254, 213, 23);
+    box-shadow: 10px 10px 5px #141414a1;
+    transform: skew(8deg, 0deg);
+    height: 425px;
+    width: 320px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    }
+    
+    .A{
+    margin-bottom: -420px;
+    }
+    
+    .B{
+    font-size: 310px;
+    }
+    
+    .C{
+    margin-top: -420px;
+    }
+    
+    .contrato{
+    color: white;
+    text-align: center;
+    line-height: 65px;
+    }
+    
+    .contrato p{
+    margin-left: 40px;
+    margin-top: 120px;
+    font-size: 44px;
+    font-weight: bold;
+    }
+    
+    .contrato strong{
+    font-size: 90px;
+    letter-spacing: 4px;
+    }
+    
+    .tituloyboton{
+    color: white;
+    margin-left: 90px;
+    margin-top: 100px;
+    }
+    
+    .flex{
+    display: flex;
+    font-size: 32px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    
+    }
+    
+    .flex img{
+    margin-right: 30px;
+    width: 85px;
+    }
+    
+    .boton4{
+    color: rgb(169, 17, 100);
+    background-color: rgb(237, 210, 40);
+    border: #edd228 solid 5px;
+    border-radius: 50px;
+    padding: 18px;
+    margin-left: 80px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 19px;
+    text-decoration: none;
+    outline: none;
+    margin-left: -50px;
+    }
+    
+    .boton4:hover{
+    background-color: rgb(27, 36, 35);
+    border: rgb(27, 36, 35) solid;
+    color: white;
+    }
+/* .container6 */
+
+.container6{
+    width: 45%;
+}
+
+.container6 p{
+    margin-left: 80px;
+}
+
+.text{
+    text-align: center;
+    font-size: 50px;
+}
+
+.texto{
+    margin-top: -40px;
+    text-align: justify;
+    font-size: 15.5px;
+}
+
+.container6 button{
+    margin-left: 80px;
+}
+
+/* container7 */
+
+.container7{
+    background: linear-gradient( rgb(160, 14, 87), rgb(131, 27, 122) );
+}
+
+.container7 p{
+    color: rgb(254, 213, 23);
+    text-align: center;
+    font-size: 60px;
+    padding-top: 60px;
+    padding-bottom: 300px;
+}
+
+/* container8 */
+
+.container8 p{
+    color: rgb(27, 36, 35);
+    text-align: center;
+    font-size: 60px;
+    padding-top: 0px;
+    padding-bottom: 300px;
+}
+
+/* container9 */
+
+.container9{
+    background: linear-gradient(  rgb(131, 27, 122), rgb(160, 14, 87));
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.container9 p{
+    color: rgb(254, 213, 23);
+    font-size: 60px;
+    padding-top: 60px;
+}
+
+.container9 button{
+    color: rgb(169, 17, 100);
+    background-color: rgb(237, 210, 40);
+    border-radius: 50px;
+    padding: 22px 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 19px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.boton3:hover{
+    background-color: rgb(27, 36, 35);
+    color: white;
+}
+
+@media screen and (max-width: 1280px){
+/* en todos los containers menos el 2 y el 6 no hay nada que hacer, ese queda igual */
+
+/* container2 se le baja el font size */
+
+.container2{
+    font-size: 16px;
+}
+
+.parrafo_c{
+    padding: 180px 110px;
+    font-size: 23px;
+}
+
+.parrafo_c strong{
+    font-size: 33px;
+}
+
+    /* container6 */
+
+.text{
+    font-size: 45px;
+}
+
+.texto{
+    margin-top: -40px;
+    text-align: justify;
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width: 1152px){
+
+    /* trabajo del container2 */
+
+.container2{
+    font-size: 16px;
+}
+
+.parrafo_c{
+    padding: 180px 110px;
+    font-size: 18px;
+}
+
+.parrafo_c strong{
+    font-size: 29px;
+}
+
+    /* container3 */
+
+.titulo2 strong{
+    font-size: 40px;
+}
+
+.titulo2 p{
+    font-size: 14px;
+}
+
+    /* container5 */
+
+.obsequios{
+    width: 300px;
+    font-size: 35px;
+}
+
+.A{
+    margin-bottom: -360px;
+}
+
+.B{
+    font-size: 280px;
+}
+
+.C{
+    margin-top: -360px;
+}
+
+.contrato p{
+    font-size: 40px;
+}
+
+.contrato strong{
+    font-size: 75px;
+    letter-spacing: 4px;
+}
+
+.tituloyboton{
+    color: white;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.flex img{
+    margin-right: 25px;
+    width: 80px;
+}
+
+.boton4{
+    margin-left: -60px;
+}
+}
+
+@media screen and (max-width: 1024px){
+
+    /* container2 */
+
+.parrafo_c{
+    padding: 180px 110px;
+    font-size: 15px;
+}
+
+.parrafo_c strong{
+    font-size: 26px;
+}
+
+/* container3 */
+
+.icon p strong{
+    font-size: 22px;
+}
+.strong{
+    font-size: 10px;
+}
+
+    /* container4 */
+
+.container4 p{
+    font-size: 70px;
+}
+
+    /* container5 */
+
+.contrato p{
+    font-size: 36px;
+}
+
+.contrato strong{
+    font-size: 68px;
+    letter-spacing: 4px;
+}
+
+.flex img{
+    margin-right: 16px;
+    width: 70px;
+}
+
+.boton4{
+    font-size: 15px;
+    margin-left: -80px;
+}
+
+.obsequios{
+    width: 280px;
+}
+
+    /* container6 */
+
+.container6{
+    width: 50%;
+}
+
+.text{
+    font-size: 40px;
+}
+
+.texto{
+    font-size: 12.5px;
+}
+}
+
+@media screen and (max-width: 800px){
+
+    /* container1 */
+
+.logo img{
+    width: 240px;
+    height:100px;
+}
+
+.container1{
+    max-width: 45%;
+}
+
+.pregunta1{
+    font-size: 42px;
+}
+
+.texto-header{
+    font-size: 12px;
+    margin-top: -40px;
+}
+
+.boton{
+    padding: 12px;
+    font-size: 13px;
+}
+
+    /* container2 */
+
+.parrafo_c{
+    padding: 180px 90px;
+    font-size: 14px;
+}
+
+.parrafo_c strong{
+    font-size: 20px;
+}
+
+/* container3 */
+
+.titulo2 strong{
+    font-size: 32px;
+}
+
+.titulo2 p{
+    font-size: 15px;
+}
+
+.contenido{
+    margin: auto 70px;
+}
+
+    /* container4 */
+
+.container4 p{
+    font-size: 50px;
+}
+
+    /* container5 */
+
+.container5{
+    display: flex;
+    flex-wrap: wrap;
+    height: 650px;
+}
+    
+.obsequios{
+    height: 285px;
+    width: 240px;
+    font-size: 26px;
+    padding-top: 5px;
+}
+    
+.A{
+    margin-bottom: -280px;
+}
+    
+.B{
+    font-size: 210px;
+}
+    
+.C{
+    margin-top: -280px;
+}
+    
+.contrato{
+    color: white;
+    text-align: center;
+    line-height: 65px;
+}
+    
+.contrato p{
+    margin-left: 120px;
+    margin-top: 60px;
+    font-size: 36px;
+    font-weight: bold;
+}
+    
+.contrato strong{
+    font-size: 68px;
+}
+    
+.tituloyboton{
+    color: white;
+    margin-left: 0px;
+    margin: 10px auto auto auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    
+}
+    
+.flex img{
+    margin-right: 30px;
+    width: 65px;
+}
+    
+.boton4{
+    margin-left: 0px;
+}
+
+    /* container6 */
+
+.container6{
+    width: 50%;
+}
+
+.text{
+    font-size: 34px;
+}
+
+.texto{
+    font-size: 11px;
+}
+
+.container6 button{
+    padding: 12px;
+    font-size: 14px;
+}
+
+/* container7 */
+
+.container7 p{
+    font-size: 45px;
+}
+
+/* container8 */
+
+.container8 p{
+    font-size: 45px;
+}
+
+/* container9 */
+
+.container9 p{
+    font-size: 45px;
+}
+}
+
+@media screen and (max-width: 768px){
+
+    /* container1 */
+
+.pregunta1{
+    font-size: 38px;
+}
+
+.boton{
+    padding: 12px;
+    font-size: 11px;
+}
+
+    /* container2 */
+
+.parrafo_c strong{
+    font-size: 18px;
+}
+
+/* container3 */
+
+.titulo2 p{
+    font-size: 12px;
+}
+
+    /* container6 */
+
+.container6 p{
+    margin-left: 60px;
+}
+
+.container6 button{
+    margin-left: 60px;
+}
+}
+
+@media screen and (max-width: 425px){
+
+/* header */
+
+.container1 {
+    max-width: 100%;
+    text-align: center;
+    margin: 15px 60px;
+}
+
+.pregunta1{
+    font-size: 42px;
+    padding-left: 0px;
+    text-align: inherit;
+}
+
+.texto-header{
+    padding-left: 0px;
+    font-size: 10px;
+}
+
+
+.boton{
+    margin-left: 0px;
+    padding: 12px;
+    font-size: 11px;
+}
+
+    /* container2 */
+
+.parrafo_c{
+    padding: 180px 20px;
+    font-size: 12px;
+}
+
+.parrafo_c strong{
+    font-size: 16px;
+}
+
+    /* container3 */
+
+.titulo2{
+    display: inline;
+}
+
+.titulo2 strong{
+    width: 100%;
+    font-size: 32px;
+}
+
+.titulo2 p{
+    width: 100%;
+    font-size: 14px;
+}
+
+.contenido{
+    display: inline;
+}
+    /* container4 */
+
+.container4 p{
+    font-size: 30px;
+}
+
+.boton2{
+    padding: 12px;
+    font-size: 14px;
+}
+
+/* container5 */
+
+.container5{
+    height: 100%;
+}
+
+.obsequios{
+    height: 285px;
+    width: 240px;
+    font-size: 26px;
+    padding-top: 5px;
+    margin-left: calc(50% - 120px);;
+}
+    
+.A{
+    margin-bottom: -280px;
+}
+    
+.B{
+    font-size: 210px;
+}
+    
+.C{
+    margin-top: -280px;
+}
+    
+.contrato{
+    color: white;
+    text-align: center;
+    line-height: 65px;
+}
+    
+.contrato p{
+    margin-left: 60px;
+}
+
+.flex{
+    font-size: 22px;  
+}
+    
+.flex img{
+    margin-right: 30px;
+    width: 55px;
+}
+
+.boton4{
+    padding: 12px;
+    font-size: 14px;
+}
+
+/* .container6 */
+
+.container6{
+    width: 100%;
+}
+
+.container6 p{
+    margin: 30px 10px 20px 10px;
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+}
+
+.texto{
+    margin-top: 0px;
+    font-size: 11px;
+}
+
+.container6 button{
+    margin-left: 0px;
+}
+
+/* container7 */
+
+.container7 p{
+    font-size: 25px;
+}
+
+/* container8 */
+
+.container8 p{
+    font-size: 25px;
+}
+
+/* container9 */
+
+.container9 p{
+    font-size: 25px;
+}
+.container9 button{
+    padding: 14px 30px;
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width: 375px){
+
+    /* container1 */
+
+.pregunta1{
+    font-size: 36px;
+}
+
+/* container3 */
+
+.contrato p{
+    margin-left: 45px;
+}
+}
+
+@media screen and (max-width: 325px){
+
+        /* container1 */
+
+.logo img{
+    width: 220px;
+    height:90px;
+}
+
+
+.pregunta1{
+    font-size: 28px;
+}
+ /* container3 */
+ .titulo2 p{
+    font-size: 10px;
+}
+
+.contrato p{
+    margin-left: 20px;
+}   
+}
